@@ -1,0 +1,24 @@
+{
+  "name": "iso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "testIDO": "truffle test test/ido.js",
+    "testDistributor": "truffle test test/distributor.js",
+    "testController": "truffle test test/controller.js",
+    "testISO": "truffle test test/iso.js",
+    "testLock": "truffle test test/lock.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "openzeppelin-test-helpers": "^0.5.1"
+  },
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.9",
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "babel-preset-latest": "^6.24.1",
+    "ganache-cli": "^6.12.2"
+  },
+  "license": "MIT"
+}
